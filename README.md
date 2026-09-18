@@ -1,8 +1,8 @@
 # LMoE — Last Man on Earth
 
-**Survival Intelligence System** — offline-first situational awareness for when the grid goes down.
+**Survival Intelligence System** - offline-first situational awareness for when the grid goes down.
 
-LMoE is a self-contained browser-based application that runs locally on a Raspberry Pi or Windows PC. It combines maps, satellite tracking, weather, LoRa radio, a survival library, supply run planning, and a companion field terminal (Espy) into a single resilient system designed to work with or without internet access.
+LMoE is a self-contained browser-based application that runs locally on a Raspberry Pi or Windows PC. It combines maps, satellite tracking, weather, LoRa radio, a survival library, supply run planning, and a companion field terminal (Espy), made from a cheap ESP32 CYD, into a single resilient system designed to work with or without internet access.
 
 ---
 
