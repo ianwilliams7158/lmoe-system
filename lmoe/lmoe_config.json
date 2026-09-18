@@ -1,0 +1,20 @@
+{
+  "_comment": "LMoE configuration file — created by LMoE Setup. Edit carefully.",
+  "_version": "1.0",
+
+  "operator_name": "",
+  "home_lat": 51.5014,
+  "home_lng": -0.1419,
+  "home_name": "Buckingham Palace, London",
+
+  "opensky_client_id": "",
+  "opensky_client_secret": "",
+
+  "aisstream_api_key": "",
+
+  "zim_directory": "",
+  "zim_index_path": "",
+
+  "proxy_port": 5001,
+  "proxy_autostart": true
+}
