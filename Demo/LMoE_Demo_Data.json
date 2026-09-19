@@ -1,0 +1,364 @@
+{
+  "version": "1.0",
+  "exported": "2025-03-19T09:00:00.000Z",
+  "day": 247,
+  "settings": {
+    "operatorName": "OPERATOR",
+    "homeLat": 51.5014,
+    "homeLng": -0.1419,
+    "homeAlt": 14,
+    "homeName": "Buckingham Palace, London SW1A 1AA",
+    "dayZero": "2024-07-16",
+    "tileMode": "auto",
+    "mapZoom": 14,
+    "loraHw": "rak4631",
+    "loraPort": "SIMULATED",
+    "loraBaud": 115200,
+    "antennaDesc": "5dBi vertical collinear, roof-mounted, Palace roof AGL",
+    "satMinEl": 10,
+    "satWindow": 24,
+    "tleSource": "embedded",
+    "tleAutoRefresh": false,
+    "alertWarn": 30,
+    "alertCrit": 7,
+    "audioCrit": false,
+    "audioLora": true,
+    "audioSat": true,
+    "satEnabled": {},
+    "tankSize": 70,
+    "consumption": 10.5,
+    "fuelReserve": 10,
+    "fuelCurrent": 28
+  },
+  "journal": [
+    {
+      "id": "j1000000001",
+      "day": 1,
+      "time": "06:42",
+      "cat": "log",
+      "title": "Day Zero — Grid Down",
+      "body": "Power failed at 06:17. No comms. Decision made to shelter in place and begin asset inventory. Water pressure still holding from mains — unsure for how long. Begin rationing immediately.",
+      "lat": 51.5014,
+      "lng": -0.1419
+    },
+    {
+      "id": "j1000000002",
+      "day": 3,
+      "time": "14:20",
+      "cat": "log",
+      "title": "Water Pressure Gone",
+      "body": "Mains pressure dropped to zero at 13:52. Switched to stored supplies. Both IBC tanks confirmed full at approx 1000L combined. Berkey filter operational. Rationing to 3L per person per day."
+    },
+    {
+      "id": "j1000000003",
+      "day": 7,
+      "time": "09:05",
+      "cat": "survival",
+      "title": "First Scavenging Run — Victoria Street",
+      "body": "Two-person team. Victoria Street SW1, 0.8km. Cleared Sainsbury's Local — approx 140 tins, 12kg pasta, 6 x 2L water. No contact. Area quiet. Fuel used: ~3L diesel. Return 11:40."
+    },
+    {
+      "id": "j1000000004",
+      "day": 12,
+      "time": "19:15",
+      "cat": "log",
+      "title": "Contact — Lone Survivor",
+      "body": "Single adult male approached from Birdcage Walk. Non-hostile. Ex-army. Name: Reynolds. Offered basic intel on St James's Park — reports a small group (~6) camped near the lake. Declined to join us. Gave him 3 days rations."
+    },
+    {
+      "id": "j1000000005",
+      "day": 19,
+      "time": "11:30",
+      "cat": "medical",
+      "title": "Minor Injury — Laceration",
+      "body": "Right hand laceration during site perimeter work — barbed wire. Cleaned with saline, dressed with sterile gauze. Antibiotics started as precaution (amoxicillin 500mg TDS). Monitor for infection."
+    },
+    {
+      "id": "j1000000006",
+      "day": 34,
+      "time": "07:00",
+      "cat": "log",
+      "title": "Security Perimeter Extended",
+      "body": "Extended inner perimeter to include Palace forecourt. Three additional observation posts established at NW, SW and SE corners. Rota: 2-hour watches, 4-person rotation."
+    },
+    {
+      "id": "j1000000007",
+      "day": 67,
+      "time": "15:45",
+      "cat": "log",
+      "title": "Second Run — Pimlico Road",
+      "body": "Extended range run to Pimlico Road SW1, ~1.1km. Garden centre confirmed abandoned. Recovered: 8 x 20L diesel jerricans (partial — est 85L total), 14 propane canisters, extensive hand tools. Run time: 3h20m. No incidents."
+    },
+    {
+      "id": "j1000000008",
+      "day": 98,
+      "time": "08:15",
+      "cat": "log",
+      "title": "LoRa Beacon Received — Day 98",
+      "body": "Received LoRa packet at 08:12. Signal strength: -78 dBm. Call sign: unknown — likely automated beacon. Bearing ~105°. Could not decode payload fully. Will monitor."
+    },
+    {
+      "id": "j1000000009",
+      "day": 143,
+      "time": "20:30",
+      "cat": "survival",
+      "title": "Fuel Assessment — Critical Review",
+      "body": "Diesel reserves: 188L remaining. Generator consumption running at ~3.5L/day on reduced schedule. Vehicle fuel kept in reserve at 28L. At current rate: approx 54 days generator fuel left. Must source more within 30 days."
+    },
+    {
+      "id": "j1000000010",
+      "day": 200,
+      "time": "12:00",
+      "cat": "log",
+      "title": "Day 200 Status — Group Intact",
+      "body": "Full inventory completed. Group of 5 remains healthy. No critical injuries in past 6 weeks. Food estimated 60+ days at current ration. Water collection from roof now operational — averaging 40L/day when raining. Morale stable."
+    },
+    {
+      "id": "j1000000011",
+      "day": 238,
+      "time": "16:00",
+      "cat": "log",
+      "title": "Satellite Pass — ISS Visible",
+      "body": "ISS tracked at 16:04. Elevation peak 62°. No RF emissions detected on 437.800MHz or 145.800MHz. Systems appear dormant. No response to attempted contact. Expected."
+    },
+    {
+      "id": "j1000000012",
+      "day": 247,
+      "time": "07:30",
+      "cat": "log",
+      "title": "Today — Routine Morning Check",
+      "body": "All systems nominal. Temperature 14°C. Light drizzle — roof collection tank open. Generator on 4-hour schedule. No new contacts. Medical: all healthy. Priority today: resupply run planning for Whitehall."
+    }
+  ],
+  "resources": [
+    {
+      "id": "f1",
+      "name": "Tinned Meat & Fish",
+      "cat": "food",
+      "unit": "tins",
+      "qty": 312,
+      "rate": 2,
+      "warn": 30,
+      "crit": 7,
+      "notes": "Mixed: beef, tuna, chicken, sardines. Stored in basement north wing. Group of 5 — 2 tins/day",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "f2",
+      "name": "Dried Pasta & Rice",
+      "cat": "food",
+      "unit": "kg",
+      "qty": 64,
+      "rate": 0.6,
+      "warn": 30,
+      "crit": 7,
+      "notes": "Pasta 40kg, rice 24kg. Sealed bins. Basement east storeroom.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "f3",
+      "name": "Tinned Vegetables",
+      "cat": "food",
+      "unit": "tins",
+      "qty": 198,
+      "rate": 1.5,
+      "warn": 30,
+      "crit": 7,
+      "notes": "Mixed: tomatoes, peas, sweetcorn, beans. Basement north wing.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "f4",
+      "name": "Cooking Oil",
+      "cat": "food",
+      "unit": "litres",
+      "qty": 28,
+      "rate": 0.1,
+      "warn": 60,
+      "crit": 14,
+      "notes": "Sunflower and olive oil. Kitchen stores.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "w1",
+      "name": "Stored Drinking Water",
+      "cat": "water",
+      "unit": "litres",
+      "qty": 680,
+      "rate": 15,
+      "warn": 30,
+      "crit": 7,
+      "notes": "Two IBC tanks ~500L + 5 x 25L jerricans. Outbuilding. Group of 5 @ 3L/day",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "w2",
+      "name": "Water Purification Tablets",
+      "cat": "water",
+      "unit": "tablets",
+      "qty": 1840,
+      "rate": 4,
+      "warn": 30,
+      "crit": 7,
+      "notes": "Aquatabs. 1 tablet per 500ml. Kitchen medical store.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "w3",
+      "name": "Berkey Filter Cartridges",
+      "cat": "water",
+      "unit": "cartridges",
+      "qty": 6,
+      "rate": 0.003,
+      "warn": 60,
+      "crit": 14,
+      "notes": "Each filters ~11,000L. Kitchen — Berkey Royal unit. Replace when flow slows noticeably.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "fv1",
+      "name": "Diesel (Vehicle)",
+      "cat": "fuel",
+      "unit": "litres",
+      "qty": 28,
+      "rate": 0,
+      "warn": 30,
+      "crit": 10,
+      "notes": "Land Rover Defender. Reserve for emergency evac only. Do not use for runs unless critical.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "fg1",
+      "name": "Diesel (Generator)",
+      "cat": "fuel",
+      "unit": "litres",
+      "qty": 188,
+      "rate": 3.5,
+      "warn": 30,
+      "crit": 7,
+      "notes": "4kW diesel generator on 4h/day schedule. IBC + jerricans in outbuilding.",
+      "created": "2024-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "fg2",
+      "name": "Propane Canisters",
+      "cat": "fuel",
+      "unit": "canisters",
+      "qty": 11,
+      "rate": 0.05,
+      "warn": 14,
+      "crit": 5,
+      "notes": "Camping Gaz 907 and generic 220g. Used for cooking stove backup. Outbuilding shelf B.",
+      "created": "2024-07-17T06:00:00.000Z"
+    }
+  ],
+  "resLogs": [
+    { "id": "f1", "type": "used", "qty": 14, "ts": "2024-07-24T18:00:00.000Z" },
+    { "id": "f1", "type": "added", "qty": 140, "ts": "2024-07-24T12:00:00.000Z" },
+    { "id": "f2", "type": "added", "qty": 12, "ts": "2024-07-24T12:00:00.000Z" },
+    { "id": "f3", "type": "added", "qty": 68, "ts": "2024-07-24T12:00:00.000Z" },
+    { "id": "w1", "type": "used", "qty": 63, "ts": "2024-08-07T09:00:00.000Z" },
+    { "id": "w1", "type": "used", "qty": 147, "ts": "2024-10-01T09:00:00.000Z" },
+    { "id": "fg1", "type": "added", "qty": 85, "ts": "2024-09-21T16:30:00.000Z" },
+    { "id": "fg1", "type": "used", "qty": 240, "ts": "2024-12-01T09:00:00.000Z" },
+    { "id": "fg2", "type": "added", "qty": 14, "ts": "2024-09-21T16:30:00.000Z" },
+    { "id": "fv1", "type": "used", "qty": 30, "ts": "2024-09-21T14:00:00.000Z" },
+    { "id": "f1", "type": "used", "qty": 56, "ts": "2024-10-15T18:00:00.000Z" },
+    { "id": "f3", "type": "used", "qty": 90, "ts": "2024-11-01T18:00:00.000Z" }
+  ],
+  "wanted": [
+    {
+      "id": "w1000000001",
+      "name": "Antibiotics — Broad Spectrum",
+      "qty": "3 courses minimum",
+      "cat": "medical",
+      "priority": "critical",
+      "status": "needed",
+      "where": "Pharmacies — Whitehall SW1, Victoria SW1",
+      "notes": "Amoxicillin, co-amoxiclav, metronidazole. Sealed packaging only. Check expiry.",
+      "created": "2024-07-20T09:00:00.000Z"
+    },
+    {
+      "id": "w1000000002",
+      "name": "Diesel — Generator",
+      "qty": "200+ litres",
+      "cat": "fuel",
+      "priority": "high",
+      "status": "needed",
+      "where": "Petrol stations — Horseferry Road, Vauxhall Bridge Road",
+      "notes": "Use manual siphon pump. Bring 4 x 25L jerricans. Confirm hand pump in kit before run.",
+      "created": "2024-08-01T09:00:00.000Z"
+    },
+    {
+      "id": "w1000000003",
+      "name": "Long-range Radio (HF)",
+      "qty": "1 unit",
+      "cat": "electronics",
+      "priority": "high",
+      "status": "needed",
+      "where": "Electronics retailers — West End, or military surplus, Tottenham Court Road",
+      "notes": "Icom IC-7300 or equivalent. Transceiver only — have antenna. Would significantly extend comms range.",
+      "created": "2024-08-15T09:00:00.000Z"
+    },
+    {
+      "id": "w1000000004",
+      "name": "Surgical Supplies",
+      "qty": "Full field kit",
+      "cat": "medical",
+      "priority": "high",
+      "status": "needed",
+      "where": "St Thomas' Hospital supply areas, Westminster SW1",
+      "notes": "Suture kits, trauma dressings, IV kit, lidocaine. Prioritise over most other runs.",
+      "created": "2024-08-20T09:00:00.000Z"
+    },
+    {
+      "id": "w1000000005",
+      "name": "Seeds — Vegetable",
+      "qty": "Full growing set",
+      "cat": "food",
+      "priority": "medium",
+      "status": "needed",
+      "where": "Garden centres — Chelsea, Pimlico",
+      "notes": "Root veg priority: carrot, parsnip, potato. Brassicas. Non-hybrid / open pollinated where possible.",
+      "created": "2024-09-01T09:00:00.000Z"
+    }
+  ],
+  "runs": [
+    {
+      "id": "run1000000001",
+      "name": "Victoria Street — Day 7",
+      "vehicle": "Land Rover Defender",
+      "destination": "Victoria Street, London SW1E 5ND",
+      "destLat": 51.4975,
+      "destLng": -0.1357,
+      "date": "2024-07-23",
+      "notes": "Cleared Sainsbury's Local and adjacent newsagent. 140 tins, 12kg pasta, misc canned goods. No contact. Run successful. Fuel used ~3L.",
+      "status": "complete",
+      "created": "2024-07-22T20:00:00.000Z"
+    },
+    {
+      "id": "run1000000002",
+      "name": "Pimlico Road — Day 67",
+      "vehicle": "Land Rover Defender",
+      "destination": "Pimlico Road, London SW1W 8NE",
+      "destLat": 51.4897,
+      "destLng": -0.1558,
+      "date": "2024-09-21",
+      "notes": "Garden centre and adjacent hardware stores. 85L diesel (partial jerricans), 14 propane canisters, hand tools, rope, tarpaulins. 3h20m round trip. No incidents. Area clear.",
+      "status": "complete",
+      "created": "2024-09-20T20:00:00.000Z"
+    },
+    {
+      "id": "run1000000003",
+      "name": "Whitehall Pharmacy Run — Planned",
+      "vehicle": "Land Rover Defender",
+      "destination": "Whitehall, London SW1A 2AW",
+      "destLat": 51.5025,
+      "destLng": -0.1247,
+      "date": "2024-09-20",
+      "notes": "Target: pharmacies on Whitehall and Charing Cross area. Priority: antibiotics, surgical supplies, IV kits. Two-person team. Estimated 2h. Abort if any contact.",
+      "status": "planned",
+      "created": "2025-03-15T09:00:00.000Z"
+    }
+  ]
+}
