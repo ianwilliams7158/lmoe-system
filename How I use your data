@@ -1,0 +1,30 @@
+*I don't. It's that simple.*
+
+100% Free and Open Source
+LMoE is free and will always remain free. There are no Patreon tiers, "buy me a coffee" links, PayPal tip jars, or requests to like and subscribe. 
+Crucially, there will never be a "Pro" version that locks features behind a paywall. Whatever is in the main branch is always the latest, most complete, and best version available.
+
+Zero Tracking, Zero Spam
+If or when a dedicated website is launched to showcase the hardware build and software documentation, it will be completely ad-free. No sign-up forms, no monthly newsletters, and no collecting your email address.
+
+Complete Data Privacy
+LMoE runs entirely on your local machine. Any files or data you "upload" stay strictly on your device and are never transmitted anywhere.
+
+There are three narrow exceptions, all of which are entirely under your control:
+
+Map tiles — In online mode, map tile images are fetched from public government and open-source tile servers (BKG, Esri, OpenStreetMap). 
+            These requests contain only the map grid coordinates needed to render the image — no LMoE data, no location, no identifying information. 
+            This can be eliminated entirely by configuring a local PMTiles file, after which the map works with zero external contact.
+
+Weather —   If you open the Weather panel, your configured home coordinates (latitude and longitude) are sent to Open-Meteo, a free, open-source, no-account weather API. No other data is transmitted.
+
+Espy sync — When you choose to sync with your Espy field terminal, map data and marker information are sent directly to that device. 
+            Espy is an ESP32 CYD you own and control, and its firmware is fully open source and available in this repository.
+
+All other features — including the journal, resource tracker, survival library, supply runs, and LoRa messaging — are entirely local. Nothing leaves your device.
+
+No Paid Dependencies
+All third-party services integrated into LMoE are free and/or open source. While some may offer paid tiers, LMoE does not use or require any paid features. 
+If you choose not to enter any API keys, those features will fail gracefully and the rest of the application will continue to be fully operational.
+
+I built this for fun, simply to see if I could. I have no interest in charging for it or collecting data about the people who use it.
